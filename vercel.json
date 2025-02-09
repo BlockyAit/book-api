@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "books.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/.*", "dest": "books.js" }]
+}
